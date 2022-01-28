@@ -1,0 +1,106 @@
+.about{
+    margin-bottom: 100px;
+}
+
+.about_title{
+    font-size: 48px;
+    line-height: 59px;
+
+    margin-bottom: 20px;
+}
+
+.about_description{
+    max-width: 1235px;
+    margin-bottom: 50px;
+}
+
+.about_details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_detailes_section{
+    display: flex;
+    max-width: 868px;
+    position: relative;
+    color: var(--color-white);
+
+    background-image: url('../img/Rectangle\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.about_detailes_section_inner{
+    align-self:flex-end;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5);    
+}
+
+.about_details_description{
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 454px;
+
+    margin-right: 139px;
+}
+
+.about_detailes_link{
+    height:fit-content;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.about_detailes_link:hover{
+    background-color: var(--color-gold);
+}
+
+.about_detailes_link:focus{
+    background-color: var(--color-gold);
+    outline: none;
+}
+
+.about_detailes_link:active{
+    background-color: var(--color-active); 
+}
+
+.about_sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_sidebar_item{
+    padding-left: 300px;
+    padding-top: 65px;
+    padding-right: 118px;
+    padding-bottom: 65px;
+
+    border: 1px solid #CACACA
+}
+
+.about_sidebar_header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 8px;
+}
+
+.about_sidebar_description{
+    max-width: 450px;
+}
+
+.cube{
+    background-image: url('../img/cube.svg');
+    background-repeat: no-repeat;
+    background-position: top 65px left 60px;
+    margin-bottom: 28px;
+}
+
+.gear{
+    background-image: url('../img/gear.svg');
+    background-repeat: no-repeat;
+    background-position: top 65px left 60px;
+}

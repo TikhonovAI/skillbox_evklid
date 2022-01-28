@@ -1,0 +1,124 @@
+.how_we_work{
+    margin-bottom: 100px;
+}
+
+.how_we_work_title{
+    margin-bottom: 50px;
+}
+
+.how_list{
+    display: flex;
+    margin-bottom: 45px;
+
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.how_list_item:not(:last-child){
+    margin-right: 85px;
+}
+
+.how_list_link:hover{
+    color:var(--color-gold);;
+}
+
+.how_list_link:focus{
+    outline: 2px solid var(--color-gold);
+}
+
+.how_list_link:active{
+    color: var(--color-gold);
+}
+
+.how_list_link.active{
+    color: var(--color-gold);
+}
+
+.how_detales{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how_detailes_container{
+    margin-right: 32px;
+}
+
+.how_banner_container{
+    width: 100%;
+    max-width: 870px;  
+
+    background-image: url('../img/Rectangle\ 18.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.how_detales_title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    margin-bottom: 8px;
+}
+
+.how_detales_description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+
+    max-width: 758px;
+}
+
+.how_detales_lnk_container{
+    display: flex;
+    justify-content: start;
+}
+
+.how_detales_link{
+    font-weight: 700;
+    line-height: 20px;
+
+    margin-right: 32px;
+
+    background-color: var(--color-gold);
+    color: var(--color-white);
+}
+
+.how_detales_link:hover{
+    opacity: 70%;
+}
+
+.how_detales_link:focus{
+    opacity:70%;
+    outline: none;
+}
+
+.how_detales_link:active{
+    background-color: var(--color-active); 
+    opacity:1;
+}
+
+.how_contract_link{
+    line-height: 20px;
+    color: var(--color-grey);
+    border-color: var(--color-grey);
+}
+
+.how_contract_link:hover{
+    background-color: #666;
+    color: #fff;
+    border: none;
+}
+
+.how_contract_link:focus{
+    background-color: #666;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.how_contract_link:active{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
