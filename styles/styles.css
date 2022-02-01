@@ -16,143 +16,144 @@
       url('../fonts/Montserrat-Light.woff') format('woff');  /* Ссылка на случай если woff2 не поддерживается браузером */
   }
 
-  @font-face {
-    font-weight: 400;  
-    font-style: normal; 
-    font-family: "Montserrat";  
-    font-display: swap;  
-    src:  
-      local("Montserrat"),  
-      url('../fonts/Montserrat-Regular.woff') format('woff2'),  
-      url('../fonts/Montserrat-Regular.woff') format('woff');  
-  }
+@font-face {
+  font-weight: 400;  
+  font-style: normal; 
+  font-family: "Montserrat";  
+  font-display: swap;  
+  src:  
+    local("Montserrat"),  
+    url('../fonts/Montserrat-Regular.woff') format('woff2'),  
+    url('../fonts/Montserrat-Regular.woff') format('woff');  
+}
 
-  @font-face {
-    font-weight: 500;  
-    font-style: normal; 
-    font-family: "Montserrat";  
-    font-display: swap;  
-    src:  
-      local("Montserrat Medium"),  
-      url('../fonts/Montserrat-Medium.woff2') format('woff2'),  
-      url('../fonts/Montserrat-Medium.woff') format('woff');  
-  }
+@font-face {
+  font-weight: 500;  
+  font-style: normal; 
+  font-family: "Montserrat";  
+  font-display: swap;  
+  src:  
+    local("Montserrat Medium"),  
+    url('../fonts/Montserrat-Medium.woff2') format('woff2'),  
+    url('../fonts/Montserrat-Medium.woff') format('woff');  
+}
 
-  @font-face {
-    font-weight: 700;  
-    font-style: normal; 
-    font-family: "Montserrat";  
-    font-display: swap;  
-    src:  
-      local("Montserrat Bold"),  
-      url('../fonts/Montserrat-Bold.woff2') format('woff2'),  
-      url('../fonts/Montserrat-Bold.woff') format('woff');  
-  }
+@font-face {
+  font-weight: 700;  
+  font-style: normal; 
+  font-family: "Montserrat";  
+  font-display: swap;  
+  src:  
+    local("Montserrat Bold"),  
+    url('../fonts/Montserrat-Bold.woff2') format('woff2'),  
+    url('../fonts/Montserrat-Bold.woff') format('woff');  
+}
 
-  @font-face {
-    font-weight: 800;  
-    font-style: normal; 
-    font-family: "Montserrat";  
-    font-display: swap;  
-    src:  
-      local("Montserrat ExtraBold"),  
-      url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),  
-      url('../fonts/Montserrat-ExtraBold.woff') format('woff');  
-  }
-  
+@font-face {
+  font-weight: 800;  
+  font-style: normal; 
+  font-family: "Montserrat";  
+  font-display: swap;  
+  src:  
+    local("Montserrat ExtraBold"),  
+    url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),  
+    url('../fonts/Montserrat-ExtraBold.woff') format('woff');  
+}
+
 html {
-    box-sizing: border-box; 
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;  
-  }
-  
-  body {
-    min-width: 320px;
-    margin: 0;
-  
-    background-color: #ffffff;  
-    font-family: "Montserrat", sans-serif;  
-    
-    font-size: 16px;  
-    color: var(--color-grey);
-    line-height: 1; 
-  }
+  box-sizing: border-box; 
+}
 
-  .container{
-    max-width: 1770px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  button{
-    font-weight: 800;
-    cursor: pointer;
-    transition: 200ms ease-in-out;
-  }
-  
-  button, input {
-    font: inherit; 
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit; 
-    cursor: pointer;
-  }
-  
-  ul, nav{
-    list-style: none; 
-    padding: 0;
-    margin: 0; 
-  }
-  
-  h1, h2, h3, p {
-    padding: 0; 
-    margin: 0;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;  
+}
 
-  p{
-    line-height: 32px;
-  }
+body {
+  min-width: 320px;
+  margin: 0;
 
-  img {
-    max-width: 100%; 
-    width: 100%;  
-    height: auto; 
-  }
+  background-color: #ffffff;  
+  font-family: "Montserrat", sans-serif;  
   
-  /* container */
-  
-  .visually-hidden {
-    position: absolute !important; 
-    clip: rect(1px 1px 1px 1px); 
-    clip: rect(1px, 1px, 1px, 1px); 
-    padding: 0 !important; 
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden; 
-  }
-  
-  /* при работе с float */
-  
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both; 
-  }
+  font-size: 16px;  
+  color: var(--color-grey);
+  line-height: 1; 
+}
 
-  .title{
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 59px;
-  }
+.container{
+  max-width: 1870px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+}
 
-  .link{
-    padding: 19px 38px;
-    border: 1px solid var(--color-gold);
-  }
+button{
+  font-weight: 800;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+button, input {
+  font: inherit; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+  cursor: pointer;
+}
+
+ul, nav{
+  list-style: none; 
+  padding: 0;
+  margin: 0; 
+}
+
+h1, h2, h3, p {
+  padding: 0; 
+  margin: 0;
+}
+
+p{
+  line-height: 32px;
+}
+
+img {
+  max-width: 100%; 
+  width: 100%;  
+  height: auto; 
+}
+
+/* container */
+
+.visually-hidden {
+  position: absolute !important; 
+  clip: rect(1px 1px 1px 1px); 
+  clip: rect(1px, 1px, 1px, 1px); 
+  padding: 0 !important; 
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden; 
+}
+
+/* при работе с float */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.title{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 59px;
+}
+
+.link{
+  padding: 19px 38px;
+  border: 1px solid var(--color-gold);
+}

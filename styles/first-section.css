@@ -1,84 +1,86 @@
-.first_section{
-    margin-bottom: 100px;
-    padding-left: 80px;
-    padding-top: 100px;
-    height: 620px;
-    position: relative;
-    color: var(--color-white);
-
-    background-image: url('../img/low-angle-photo-of-balconies-2462015\ 1.jpg');
-    background-size: cover;
-    background-repeat: no_repeat;
+.first-section{    
+  position: relative;
+  color: var(--color-white);
 }
 
-.first_title{
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 86px;
-
-    max-width: 850px;
-
-    margin-bottom: 22px;
+.first-section_container{
+  min-height: 620px;
+  margin-bottom: 100px;
+  padding-left: 80px;
+  padding-top: 100px;
+  background-image: url('../img/low-angle-photo-of-balconies-2462015\ 1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.first_title_description{
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: 700;
-    max-width: 790px;
+.first-section_title{
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 86px;
 
-    margin-bottom: 112.571px;
+  max-width: 850px;
+
+  margin-bottom: 22px;
+}
+
+.first-section_title_description{
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  max-width: 790px;
+
+  margin-bottom: 113px;
 }
 
 .book_link{
-    padding: 24.83px 36.88px;
-    background-color: var(--color-gold);
+  padding: 25px 37px;
+  background-color: var(--color-gold);
 
-    font-size: 23.4581px;
-    font-weight: 700;
-    line-height: 29px;
+  font-size: 23.4581px;
+  font-weight: 700;
+  line-height: 29px;
 }
 
 .book_link:hover{
-    opacity:70%;
+  opacity:70%;
 }
 
 .book_link:focus{
-    opacity:70%;
-    outline: none;
+  opacity:70%;
+  outline: none;
 }
 
 .book_link:active{
-    background-color: var(--color-active); 
-    opacity:1;
+  background-color: var(--color-active); 
+  opacity:1;
 }
 
 .slider_dots_container{
-    display:flex;
-    justify-content: space-between;
-    position:absolute;
-    left: 50%;
-    bottom:30px;
+  display:flex;
+  justify-content: space-between;
+  position:absolute;
+  left: 50%;
+  bottom:30px;
 
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .slider_dot{
-    display: block;
-    align-self:center;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+  display: block;
+  align-self:center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 
-    background-color:#fff;
-    opacity:0.4;
+  background-color:#fff;
+  opacity:0.4;
 }
 
 .slider_dot:not(:last-child){
-    margin-right:20px;
+  margin-right:20px;
 }
 
 .slider_dot.active{
-    opacity:1;
+  opacity:1;
 }
